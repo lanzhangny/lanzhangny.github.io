@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+
+        <link rel="icon" href="hand_wave.png">
+        <title>Projects</title>
+    </head>
+
+    <body>
+			<nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #ffffff">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="index.html">Lan Zhang</a>
+			    </div>
+			    <ul class="nav navbar-nav navbar-right">
+			      <a class="nav-item nav-link" href="projects.html">Projects</a>
+			    </ul>
+			    <ul class="nav navbar-nav navbar-right">
+			      <a class="nav-item nav-link" href="https://www.linkedin.com/in/lan-zhang-ny/">LinkedIn</a>
+			    </ul>
+			    <ul class="nav navbar-nav navbar-right">
+			      <a class="nav-item nav-link" href="https://github.com/lanzhangny">Github</a>
+			    </ul>
+			    <ul class="nav navbar-nav navbar-right">
+			      <a class="nav-item nav-link" href = "mailto: lan_zhang@college.harvard.edu"> Email </a>
+			    </ul>
+			  </div>
+			</nav>
+
+			<br>
+			<br>
+
+		<h2>
+			AUTOMATING INDUSTRY CLASSIFICATION
+			<br>
+			FOR THE ECONOMIC CENSUS
+		</h2>
+		SUMMER 2019
+		<p id = 'project1'>
+			Each business establishment in the United States is assigned a six-digit industry classification code, per the <a href="https://www.census.gov/programs-surveys/economic-census/guidance/understanding-naics.html" style = "color: #5174BF"> North American Industry Classification System (NAICS)</a>, that describes its primary business activity. Industry classification codes are crucial for the United States Census Bureau to describe domestic economic activity and its dynamics. The Census Bureau spends considerable time and resources identifying and classifying the industry of establishments. The burden of collection is significant on business establishments as they are required to fill out lengthy and tedious surveys, as well as on the Census Bureau due to high mail-out and analyst costs. To ameliorate these issues, I implemented a segment of a machine learning pipeline that uses public data associated with American business establishments from the Google Places API to generate their associated six-digit industry classification codes. This technology has projected savings of $1.2 million for the Census Bureau.
+			<br>
+			<br>
+			The presentation my team delivered to U.S. Census Bureau upper management staff, including Deputy Director and COO Ron Jarmin, and to an audience of 300 consisting of leaders in the civic technology space:
+			<br>
+			<br>
+			<a href="presentation.pdf" class="btn btn-primary btn-lg active " role="button" aria-pressed="true">Presentation</a>
+		</p>
+		<br>
+		<h2>
+			MINIML INTERPRETER
+		</h2>
+		SPRING 2019
+		<p id = 'project2'>
+			The MiniML metacircular interpreter is a Turing complete language based on OCaml that supports basic operations, recursion, and atomic types. MiniML supports three different environment models for computation, the substitution model, the dynamic scoped environment model, and the lexical scoped environment model.
+			<br>
+			<br>
+			<a href="https://github.com/lanzhangny/miniml" class="btn btn-primary btn-lg active " role="button" aria-pressed="true">Code</a>
+			<a href="writeup.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Writeup</a>
+
+		</p>
+		<br>
+		<h2>
+			PACK & MATCH
+		</h2>
+		WINTER 2018
+		<p id = 'project3'>
+		Pack&Match is a food management web application that connects Harvard University Dining Services (HUDS) to local food shelters. In 2017, HUDS had over 30,700 meals worth of food leftover. While HUDS does currently donate these excess meals, their current methods do not allow for the shelters to request specific types of food that they need and for HUDS to indicate the specific types of food that they have leftover on a daily basis.
+
+		The Pack&Match web application allows for shelters to make requests for specific food categories, as late as the day before they require the supplies. An optimization algorithm then ranks the shelters, taking into account the shelter’s specific requests and their distance away from HUDS. The top three shelters will then be “matched” to HUDS by this web application, who proceeds to donate that day’s excess meals accordingly.
+		<br>
+		<br>
+			<a href="https://github.com/lanzhangny/HUDSMatch/tree/master/lanzhangny-cs50-2018-fall-project-implementation" class="btn btn-primary btn-lg active " role="button" aria-pressed="true">Code</a>
+			<a href="https://pack-match.herokuapp.com/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Website</a>
+		</p>
+    </body>
+</html>
