@@ -12,6 +12,13 @@ body {
     text-align: center;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  /* Magic! */
+  max-width: 25vw;
+}
+
 
 h1 {
     margin-top: 50px;
